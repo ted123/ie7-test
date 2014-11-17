@@ -1,0 +1,19 @@
+{
+  "name": "ie7-test",
+  "version": "0.0.0",
+  "description": "testing only",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ted123/ie7-test.git"
+  },
+  "author": "ted123",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ted123/ie7-test/issues"
+  },
+  "homepage": "https://github.com/ted123/ie7-test"
+}
