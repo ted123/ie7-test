@@ -70,9 +70,83 @@
 /*---------LOGO--------*/
 
 #logo-container {
-	width      : 100%;
-	height     : 110px;
-	background : #CCFFCC; 
-	margin-top : 50px;
-	position   : absolute; 
+	width         : 100%;
+	height        : 150px;
+	background    : #FFFFFF; 
+	margin-top    : 50px;
+	position      : absolute; 
+	border-bottom : thick solid #003399;
+}
+
+#logo {
+	background-image : url("../img/logo.png");
+	position         : absolute;
+	width            : 313px;
+	height           : 75px;
+	margin-top       : 35px;
+}
+
+/*------ OTHER MENU ------*/
+
+#second-menu {
+	width      : 280px;
+	height     : 40px;
+	position   : absolute;
+	z-index    : 10;
+	background : #003399;
+	left       : 0;
+	margin-top : 200px;
+	padding    : 0; 
+}
+
+#empty-space {
+	width      : 280px;
+	height     : 40px; 
+	left       : 280px;
+	position   : absolute;
+	z-index    : 10;
+	margin-top : 200px;
+	background-color: #FFFFFF;
+	border-top : thick solid #003399;
+}
+
+#empty-triangle {
+	width       : 0;
+	height      : 0;
+	border-top  : 40px solid transparent;
+	position    : absolute;
+	z-index     : 10;
+	border-left : 40px solid #FFFFFF;
+	left        : 560px;
+	margin-top  : 200px;
+	border-top : thick solid #003399;
+	border-right : thick solid #003399;
+}
+
+#secondmenu-triangle {
+	width          : 0;
+	height         : 0;
+	border-bottom  : 40px solid transparent;
+	position       : absolute;
+	z-index        : 11;
+	border-left    : 40px solid #003399;
+	left           : 280px;
+	margin-top     : 200px;
+}
+
+#secondmenu-list {
+	height      : 40px;
+  	line-height : 40px;
+  	margin-left : 10px;	
+}
+
+#secondmenu-list li {
+	display    : inline;
+	color      : #FFFFFF;
+	text-align : center;
+	padding    : 0 4px 0 8px; 
+}
+
+#secondmenu-list li~li {
+	border-left: 2px solid #FFFFFF; 
 }
