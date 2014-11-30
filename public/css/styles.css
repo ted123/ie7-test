@@ -111,16 +111,25 @@
 }
 
 #empty-triangle {
-	width       : 0;
-	height      : 0;
+	width          : 0;
+	height         : 0;
 	border-top  : 40px solid transparent;
-	position    : absolute;
-	z-index     : 10;
-	border-left : 40px solid #FFFFFF;
-	left        : 560px;
-	margin-top  : 200px;
-	border-top : thick solid #003399;
-	border-right : thick solid #003399;
+	position       : absolute;
+	z-index        : 10;
+	border-left    : 40px solid #FFFFFF;
+	left           : 560px;
+	margin-top     : 205px;
+}
+
+#backempty-triangle {
+	width          : 0;
+	height         : 0;
+	border-top     : 40px solid transparent;
+	position       : absolute;
+	z-index        : 9;
+	border-left    : 40px solid #003399 ;
+	left           : 560px;
+	margin-top     : 200px;
 }
 
 #secondmenu-triangle {
@@ -149,4 +158,36 @@
 
 #secondmenu-list li~li {
 	border-left: 2px solid #FFFFFF; 
+}
+
+/*-----SIDEBAR-----*/
+#sidebar {
+	background : #FFFFFF;
+	width      : 315px;
+	min-height : 100%;
+	position   : absolute;
+	margin-top : 205px;
+	padding-top: 50px;
+}
+
+.sidebarcard {
+	background : #003399;
+	width      : 305px;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-bottom:  20px;
+	color : white;
+}
+
+.sidebarcard-header {
+	padding-left : 10px;
+	padding-top  : 10px;
+	font-size    : 17px;
+	font-weight  : bold;
+	border-bottom: thick solid #66CCFF;  
+}
+.sidebarcard-body {
+	padding : 5px;
+	text-align: justify;
+    text-justify: inter-word;
 }
