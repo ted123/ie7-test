@@ -1,193 +1,115 @@
-#top-nav {
-	width         : 100%;
-	height        : 47px;
-	background    : #0099CC; 
+body {
+	background : white;
+}
+.wrapper {
+	position: absolute; 
+	width   : 100%;
+	height  : 100%;
+}
+
+#page-backdrop {
+	width      : 1125px;
+	height     : 837px;
+	margin-top : 30px;
+    position   : relative;
+    background : #004080;
+}
+
+#head {
+	width         : 1075px;
+	height        : 686px;
+	background    : white;
+	margin-top    : -20px;
+	margin-left   : 24px; 
 	position      : absolute;
-	border-bottom : thick solid #003399; 
+    border     	  : thin solid black;	
 }
-
-#menu {
-	width      : 650px;
-	height     : 50px;
-	position   : absolute;
-	z-index    : 10; 
-	background : #003399;
-	right      : 0;
-	margin-top : 25px;
-	padding    : 0;	 
-}
-
-#menu-triangle {
-	width         : 0; 
-	height        : 0; 
-	border-top    : 25px solid transparent;
-	border-bottom : 25px solid transparent; 
-	position      : absolute;
-	z-index       : 10; 
-	border-right  : 25px solid #003399; 
-	right         : 650px;
-	margin-top    : 25px; 
-}
-
-#menu-list {
-	height      : 50px;
-  	line-height : 50px;
-  	margin-left : 10px;	
-}
-
-#menu-list li {
-	display    : inline;
-	color      : #FFFFFF;
-	text-align : center;
-	padding    : 0 4px 0 8px; 
-}
-
-#menu-list li~li {
-	border-left: 2px solid #FFFFFF; 
-}
-
-#menu-ielist {
-	margin-left : 10px;	
-	position    : relative;
-	margin-top  : inherit;
-	*clear      : expression(
-					style.marginTop = "" + (offsetHeight < parentNode.offsetHeight ? parseInt((parentNode.offsetHeight - offsetHeight) / 2) + "px" : "0"),
-					style.clear = "none", 0
-				 );
-}
-
-#menu-ielist li {
-	display    : inline;
-	color      : #FFFFFF;
-	text-align : center;
-	padding    : 0 4px 0 8px; 
-}
-
-#menu-ielist li~li {
-	border-left: 2px solid #FFFFFF; 
-}
-
-/*---------LOGO--------*/
 
 #logo-container {
-	width         : 100%;
-	height        : 150px;
-	background    : #FFFFFF; 
-	margin-top    : 50px;
-	position      : absolute; 
-	border-bottom : thick solid #003399;
+	margin : 10px 0px 0px 20px;
 }
 
-#logo {
-	background-image : url("../img/logo.png");
-	position         : absolute;
-	width            : 313px;
-	height           : 75px;
-	margin-top       : 35px;
+#news-section {
+	width       : 195px;
+	height      : 300px;
+	background  : #004080;
+	position    : absolute;
+	margin-left : -64px;
+	margin-top  : 29px;
+	color       : white;
+	padding     : 10px;
+	opacity     : 0.9; 
 }
 
-/*------ OTHER MENU ------*/
-
-#second-menu {
-	width      : 280px;
-	height     : 40px;
-	position   : absolute;
-	z-index    : 10;
-	background : #003399;
-	left       : 0;
-	margin-top : 200px;
-	padding    : 0; 
+#news-section label {
+	font-weight : bold;
+	opacity     : 1;  
 }
 
-#empty-space {
-	width      : 280px;
-	height     : 40px; 
-	left       : 280px;
-	position   : absolute;
-	z-index    : 10;
-	margin-top : 200px;
-	background-color: #FFFFFF;
-	border-top : thick solid #003399;
+#side-nav {
+	width       : 170px;
+	height      : 400px;
+	margin-left : 971px;
+	margin-top  : -56px;
+	position    : absolute;
+	z-index     : 20;
 }
 
-#empty-triangle {
-	width          : 0;
-	height         : 0;
-	border-top  : 40px solid transparent;
-	position       : absolute;
-	z-index        : 10;
-	border-left    : 40px solid #FFFFFF;
-	left           : 560px;
-	margin-top     : 205px;
+.custom-nav {
+	background    : #004080;
+	padding       : 5px;
+	border        : thin solid beige;
+	margin-bottom : 2px;
+}
+.custom-nav a {
+	color       : white;
+	font-weight : bold;  
+}
+#products-carousel {
+	width: 700px;
+	margin-top: 100px;
 }
 
-#backempty-triangle {
-	width          : 0;
-	height         : 0;
-	border-top     : 40px solid transparent;
-	position       : absolute;
-	z-index        : 9;
-	border-left    : 40px solid #003399 ;
-	left           : 560px;
-	margin-top     : 200px;
+#products-carousel img {
+	height : 300px;
+	width  : 700px;
 }
 
-#secondmenu-triangle {
-	width          : 0;
-	height         : 0;
-	border-bottom  : 40px solid transparent;
-	position       : absolute;
-	z-index        : 11;
-	border-left    : 40px solid #003399;
-	left           : 280px;
-	margin-top     : 200px;
+#mid {
+	margin-top : 393px; 
+	width      : 1055px;
+	height     : 200px;
+	border-top : thin solid black;
 }
 
-#secondmenu-list {
-	height      : 40px;
-  	line-height : 40px;
-  	margin-left : 10px;	
+#mid ul {
+	padding : 0;
+	margin  : 0;  
 }
 
-#secondmenu-list li {
-	display    : inline;
-	color      : #FFFFFF;
+.infocard {
+	display    : inline-table;
+	list-style-type: none;
+	height     : 216px;
+	width      : 226px;
+	border     : thin dotted gray;
+	margin     : 10px 0px 20px 10px;
+	padding    : 10px; 
+}
+
+#copyright {
 	text-align : center;
-	padding    : 0 4px 0 8px; 
+	margin-top : 757px;
+	color      : white;
 }
 
-#secondmenu-list li~li {
-	border-left: 2px solid #FFFFFF; 
+/*--- common helpers ---*/
+
+.center {
+	display    : table;
+    margin     : 0 auto;
 }
 
-/*-----SIDEBAR-----*/
-#sidebar {
-	background : #FFFFFF;
-	width      : 315px;
-	min-height : 100%;
-	position   : absolute;
-	margin-top : 205px;
-	padding-top: 50px;
-}
-
-.sidebarcard {
-	background : #003399;
-	width      : 305px;
-	margin-left: 5px;
-	margin-right: 5px;
-	margin-bottom:  20px;
-	color : white;
-}
-
-.sidebarcard-header {
-	padding-left : 10px;
-	padding-top  : 10px;
-	font-size    : 17px;
-	font-weight  : bold;
-	border-bottom: thick solid #66CCFF;  
-}
-.sidebarcard-body {
-	padding : 5px;
-	text-align: justify;
-    text-justify: inter-word;
+.hide {
+	display : none; 
 }
