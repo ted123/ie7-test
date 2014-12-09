@@ -97,14 +97,62 @@ body {
 	padding    : 10px; 
 }
 
+.infocard label {
+	border-bottom : thin solid blue;
+	font-size     : 17px;
+}
+
+.infocard p {
+	text-align   : justify;
+    text-justify : inter-word;
+}
+
 #copyright {
 	text-align : center;
 	margin-top : 757px;
 	color      : white;
 }
 
+/*--- company profile css ----*/
+#more-links {
+	width       : 195px;
+	height      : 300px;
+	position    : absolute;
+	margin-left : -64px;
+	margin-top  : 29px;
+	padding     : 10px;
+}
+#header-title {
+	margin-left : 527px;
+	position    : absolute;
+	margin-top  : -51px;
+	font-family : "Times New Roman", Georgia, Serif;
+	font-size   : 56px;
+	color       : #9FC6E4;
+}
+#content-text{
+	width       : 746px;
+	margin-left : 200px;
+	margin-top  : 59px;
+}
+#content-text p{
+	text-indent  : 35px;
+	text-align   : justify;
+    text-justify : inter-word;
+}
+#subheader{
+	margin-left : 700px;
+	margin-top  : 27px;
+	font-size   : 25px;
+	font-style  : italic;
+	position    : absolute;
+	color       : #004080;
+	font-weight : bold;
+}
 /*--- common helpers ---*/
-
+.bold {
+	font-weight : bold; 
+}
 .center {
 	display    : table;
     margin     : 0 auto;
