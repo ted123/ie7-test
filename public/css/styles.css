@@ -74,10 +74,12 @@ body {
 }
 
 #mid {
-	margin-top : 393px; 
-	width      : 1055px;
-	height     : 200px;
-	border-top : thin solid black;
+	margin-top  : 393px; 
+	width       : 1055px;
+	height      : 200px;
+	border-top  : thin solid black;
+	position    : absolute;
+	margin-left : 10px;  
 }
 
 #mid ul {
@@ -87,12 +89,14 @@ body {
 
 .infocard {
 	display    : inline-table;
-	list-style-type: none;
 	height     : 216px;
 	width      : 226px;
 	border     : thin dotted gray;
 	margin     : 10px 0px 20px 10px;
-	padding    : 10px; 
+	padding    : 10px;
+	/*--- ie fixes --- */ 
+	zoom       : 1;
+ 	*display   : inline;
 }
 
 .infocard label {
@@ -121,9 +125,10 @@ body {
 }
 #header-title {
 	margin-left : 527px;
+	position    : absolute;
 	margin-top  : -51px;
 	font-family : "Times New Roman", Georgia, Serif;
-	font-size   : 56px;
+	
 	line-height : 42px; 
 	color       : #9FC6E4;
 }
@@ -131,6 +136,7 @@ body {
 	width       : 746px;
 	margin-left : 200px;
 	margin-top  : 59px;
+	position    : absolute; 	
 }
 #content-text p{
 	text-indent  : 35px;
@@ -144,6 +150,37 @@ body {
 	position    : absolute;
 	color       : #004080;
 	font-weight : bold;
+}
+
+/*----products and services ------*/
+.psinfo-header {
+	color      : white;
+	background : #004080;
+	width      : 189px;
+	text-align : center;
+	float      : left;
+}
+.psinfo-triangle {
+	width       : 0;
+	height      : 0;
+	border-top  : 20px solid transparent;
+	border-left : 20px solid #004080;
+	margin-left : 189px; 
+}
+.psinfo-content {
+	border-top  : thin solid #004080;
+	width       : 100%;
+	padding-top : 10px;   
+}
+.psinfo-pic {
+	float : left;
+}
+.psinfo-desc {
+	padding-left : 171px; 
+}
+.psinfo-scope {
+	font-weight   : bold;
+	border-bottom : thin solid #004080;   
 }
 
 /*--- histroy table ---*/
@@ -168,20 +205,47 @@ table, td {
 .header-history {
 	height : 1130px;
 }
+.header-plant {
+	height : 3947px;
+}
+.header-ship {
+	height : 1350px;
+}
+.header-machine {
+	height : 1113px;
+}
+/*
 .backdrop-height {
 	height : 837px;
 }
 .backdrop-history {
 	height : 1225px;
 }
+.backdrop-plant {
+}*/
 .copyright-top{
 	margin-top : 757px !important;
 }
 .copyright-history{
 	margin-top : 1140px !important;
 }
+.copyright-plant{
+	margin-top : 3946px !important;
+}
 
-
+.copyright-ship{
+	margin-top : 1354px !important;
+}
+.copyright-machine {
+	margin-top : 1119px !important;
+}
+/*---- different font-sizes -----*/
+.header-company {
+	font-size : 56px;
+}
+.header-ps {
+	font-size : 56px;
+}
 /*--- margin for subheaders ---*/
 .subheader-history {
 	margin-left : 833px; 
@@ -198,6 +262,12 @@ table, td {
 .subheader-plant {
 	margin-left : 565px;
 }
+.subheader-ship {
+	margin-left : 585px;
+}
+.subheader-machine {
+	margin-left : 643px; 
+}
 /*--- common helpers ---*/
 .bold {
 	font-weight : bold; 
@@ -209,4 +279,57 @@ table, td {
 
 .hide {
 	display : none; 
+}
+
+/*----- responsive css -----*/
+@media screen and (max-width: 1024px) {
+	#page-backdrop {
+		width : 935px;
+	}
+	#head {
+		width : 886px;
+	}
+	#news-section {
+		width       : 175px;
+		margin-left : -48px;
+	}
+	#more-links {
+		width       : 159px;
+		margin-left : -48px;
+	}
+	#side-nav {
+		width       : 129px;
+		margin-left : 802px;
+	}
+	#header-title {
+		margin-left : 397px;
+	}
+	.subheader-profile {
+		margin-left: 549px;
+	}
+	.subheader-org {
+		margin-left: 595px;
+	}
+	.subheader-history {
+		margin-left: 680px;
+	}
+	.subheader-cert {
+		margin-left: 575px;
+	}
+	.subheader-plant {
+		margin-left: 409px;
+	}
+	#content-text {
+		width       : 670px;
+		margin-left : 126px;
+	}
+	.infocard {
+		width : 179px;
+	}
+	.infocard label {
+		font-size : 15px; 
+	}
+	#mid {
+		width : 864px;
+	}
 }
