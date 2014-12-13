@@ -9,7 +9,6 @@ body {
 
 #page-backdrop {
 	width      : 1125px;
-	height     : 837px;
 	margin-top : 30px;
     position   : relative;
     background : #004080;
@@ -17,7 +16,6 @@ body {
 
 #head {
 	width         : 1075px;
-	height        : 686px;
 	background    : white;
 	margin-top    : -20px;
 	margin-left   : 24px; 
@@ -109,7 +107,6 @@ body {
 
 #copyright {
 	text-align : center;
-	margin-top : 757px;
 	color      : white;
 }
 
@@ -124,10 +121,10 @@ body {
 }
 #header-title {
 	margin-left : 527px;
-	position    : absolute;
 	margin-top  : -51px;
 	font-family : "Times New Roman", Georgia, Serif;
 	font-size   : 56px;
+	line-height : 42px; 
 	color       : #9FC6E4;
 }
 #content-text{
@@ -141,13 +138,65 @@ body {
     text-justify : inter-word;
 }
 #subheader{
-	margin-left : 700px;
 	margin-top  : 27px;
 	font-size   : 25px;
 	font-style  : italic;
 	position    : absolute;
 	color       : #004080;
 	font-weight : bold;
+}
+
+/*--- histroy table ---*/
+table, td {
+	border        : 1px solid black;
+	padding-left  : 5px;
+	padding-right : 5px;
+}
+.table-header {
+	font-weight :  bold;
+	color       : #FFFFFF;
+	background  : #004080;
+	text-align  : center; 
+}
+.table-alt {
+	background : #9FC6E4;
+}
+/*-- different height for container adjustments----*/
+.header-height {
+	height : 746px;
+}
+.header-history {
+	height : 1130px;
+}
+.backdrop-height {
+	height : 837px;
+}
+.backdrop-history {
+	height : 1225px;
+}
+.copyright-top{
+	margin-top : 757px !important;
+}
+.copyright-history{
+	margin-top : 1140px !important;
+}
+
+
+/*--- margin for subheaders ---*/
+.subheader-history {
+	margin-left : 833px; 
+}
+.subheader-profile {
+	margin-left : 700px; 
+}
+.subheader-org {
+	margin-left : 732px;
+}
+.subheader-cert {
+	margin-left : 718px;
+}
+.subheader-plant {
+	margin-left : 565px;
 }
 /*--- common helpers ---*/
 .bold {
