@@ -205,6 +205,9 @@ table, td {
 .header-history {
 	height : 1130px;
 }
+.header-pm {
+	height: 1525px;
+}
 .header-plant {
 	height : 3947px;
 }
@@ -228,6 +231,9 @@ table, td {
 }
 .copyright-history{
 	margin-top : 1140px !important;
+}
+.copyright-pm {
+	margin-top: 1530px !important;
 }
 .copyright-plant{
 	margin-top : 3946px !important;
@@ -258,6 +264,9 @@ table, td {
 }
 .subheader-cert {
 	margin-left : 718px;
+}
+.subheader-pm {
+	margin-left : 645px; 
 }
 .subheader-plant {
 	margin-left : 565px;
