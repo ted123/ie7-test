@@ -198,6 +198,13 @@ table, td {
 .table-alt {
 	background : #9FC6E4;
 }
+.table-pic {
+	width      : 110px;
+	background : #004080;
+}
+.table-ed {
+	background: #F5F5F5;
+}
 /*-- different height for container adjustments----*/
 .header-height {
 	height : 746px;
@@ -277,6 +284,9 @@ table, td {
 .subheader-machine {
 	margin-left : 643px; 
 }
+.subheader-training {
+	margin-left : 660px; 
+}
 /*--- common helpers ---*/
 .bold {
 	font-weight : bold; 
@@ -289,7 +299,12 @@ table, td {
 .hide {
 	display : none; 
 }
-
+.rm-border table, td{
+	border : none !important;
+}
+.color-border table, td{
+	border : 11px solid white !important;
+}
 /*----- responsive css -----*/
 @media screen and (max-width: 1024px) {
 	#page-backdrop {
