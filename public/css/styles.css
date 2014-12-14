@@ -292,6 +292,15 @@ table, td {
 .subheader-sports {
 	margin-left: 705px;
 }
+.subheader-csr {
+	margin-left : 641px; 
+}
+.subheader-careers {
+	margin-left: 822px;
+}
+.subheader-contact {
+	margin-left: 757px;
+}
 /*--- common helpers ---*/
 .bold {
 	font-weight : bold; 
