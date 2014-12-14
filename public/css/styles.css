@@ -287,6 +287,9 @@ table, td {
 .subheader-training {
 	margin-left : 660px; 
 }
+.subheader-social {
+	margin-left: 678px;
+}
 /*--- common helpers ---*/
 .bold {
 	font-weight : bold; 
