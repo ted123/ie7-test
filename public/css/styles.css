@@ -24,6 +24,7 @@ body {
 }
 
 #logo-container {
+
 	margin : 10px 0px 0px 20px;
 }
 
@@ -36,7 +37,8 @@ body {
 	margin-top  : 29px;
 	color       : white;
 	padding     : 10px;
-	opacity     : 0.9; 
+	opacity     : 0.9;
+	z-index: 10  
 }
 
 #news-section label {
@@ -370,4 +372,19 @@ table, td {
 	#mid {
 		width : 864px;
 	}
+}
+
+/*------ temp css -------*/
+.main-pic {
+	position: absolute;
+	top: 90px;
+	width: 1075px;
+	height: 384px;
+}
+.newpic{
+	background: white;
+position: absolute;
+z-index: 10;
+top: 0;
+left: 0;
 }
