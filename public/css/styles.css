@@ -256,7 +256,7 @@ table, td {
 	border : 11px solid white;
 }
 /*----- responsive css -----*/
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1202px) {
 	#page-backdrop {
 		width : 935px;
 	}
@@ -291,6 +291,144 @@ table, td {
 	#mid {
 		width : 864px;
 	}
+}
+
+@media screen and (max-width: 974px) {
+	#side-nav {
+		display : none; 
+	}
+	#news-section {
+		display : none; 
+	}
+	#small-nav {
+		display : block !important; 
+	}	
+}
+
+@media screen and (max-width: 903px) {
+	#page-backdrop {
+		width      : 100%;
+		margin-top : 0px;
+		position   : inherit; 
+		display    : block !important; 
+	}
+	#head {
+		width   : 100%;
+		margin  : 0;
+	}
+	.infocard {
+		height : 176px;
+	}
+}
+
+@media screen and (max-width: 830px) {
+	.infocard {
+		height : 116px;
+		width  : 363px;
+	}
+	#mid {
+		margin-left : 0;
+		width       : auto;
+		height      : auto;  
+	}
+	#wrapper {
+		position : block; 
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.infocard {
+		height : 116px;
+		width  : 361px;
+	}
+}
+
+@media screen and (max-width: 794px) {
+	.infocard {
+		width  : 356px;
+	}
+}
+@media screen and (max-width: 768px) {
+	.infocard {
+		width  : 344px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	body {
+		padding : 0 !important;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.infocard {
+		width  : 261px;
+		height : 156px;
+	}
+}
+
+@media screen and (max-width: 568px) {
+	.infocard {
+		width  : 244px;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.infocard {
+		width  : 209px;
+	}
+}
+
+@media screen and (max-width: 414px) {
+	.infocard {
+		width  : 368px;
+		height : 108px;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.infocard {
+		width  : 354px;
+	}
+}
+
+@media screen and (max-width: 375px) {
+	.infocard {
+		width  : 331px;
+	}
+	#logo-container {
+		margin-top: 10px;
+		margin-left: 4px;
+	}
+}
+
+@media screen and (max-width: 360px) {
+	.infocard {
+		width  : 314px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.infocard {
+		width  : 277px;
+	}
+}
+
+
+/*--overide bootstrap css--*/
+.navbar {
+	margin-bottom : 0px; 
+}
+.navbar-inverse .navbar-inner {
+	background    : #004080;
+	border-radius : 0px;
+	border        : 0; 
+}
+
+/*---- small elements ---*/
+#small-nav {
+	display    : none;
+	width      : 100%;	
 }
 
 /*------ temp css -------*/
