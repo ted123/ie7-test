@@ -128,6 +128,7 @@ body {
 	margin-left : -64px;
 	margin-top  : 29px;
 	padding     : 10px;
+	z-index     : 20;
 }
 #header-title {
 	margin-left : 527px;
@@ -139,10 +140,9 @@ body {
 	color       : #9FC6E4;
 }
 #content-text{
-	width       : 746px;
-	margin-left : 200px;
-	margin-top  : 25px;
-	position    : absolute; 	
+	width        : 746px;
+	padding-left : 200px;
+	margin-top   : 25px;	
 }
 #content-text p{
 	text-indent  : 35px;
@@ -278,24 +278,9 @@ table, td {
 	#header-title {
 		margin-left : 397px;
 	}
-	.subheader-profile {
-		margin-left: 549px;
-	}
-	.subheader-org {
-		margin-left: 595px;
-	}
-	.subheader-history {
-		margin-left: 680px;
-	}
-	.subheader-cert {
-		margin-left: 575px;
-	}
-	.subheader-plant {
-		margin-left: 409px;
-	}
 	#content-text {
 		width       : 670px;
-		margin-left : 126px;
+		padding-left : 126px;
 	}
 	.infocard {
 		width : 179px;
