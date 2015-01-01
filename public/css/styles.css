@@ -18,8 +18,7 @@ body {
 	width         : 1075px;
 	background    : white;
 	margin-top    : -20px;
-	margin-left   : 24px; 
-	position      : absolute;
+	margin-left   : 24px;
     border     	  : thin solid black;	
 }
 
@@ -76,11 +75,10 @@ body {
 }
 
 #mid {
-	margin-top  : 393px; 
+	margin-top  : 10px; 	
 	width       : 1055px;
 	height      : 200px;
 	border-top  : thin solid black;
-	position    : absolute;
 	margin-left : 10px;  
 }
 
@@ -88,6 +86,11 @@ body {
 	padding : 0;
 	margin  : 0;  
 }
+
+#mid a {
+	color           : black;
+	text-decoration : none; 
+}	
 
 .infocard {
 	display    : inline-table;
@@ -112,8 +115,9 @@ body {
 }
 
 #copyright {
-	text-align : center;
-	color      : white;
+	text-align  : center;
+	color       : white;
+	padding-top : 10px; 
 }
 
 /*--- company profile css ----*/
@@ -137,7 +141,7 @@ body {
 #content-text{
 	width       : 746px;
 	margin-left : 200px;
-	margin-top  : 59px;
+	margin-top  : 25px;
 	position    : absolute; 	
 }
 #content-text p{
@@ -146,12 +150,12 @@ body {
     text-justify : inter-word;
 }
 #subheader{
-	margin-top  : 27px;
-	font-size   : 25px;
-	font-style  : italic;
-	position    : absolute;
-	color       : #004080;
-	font-weight : bold;
+	font-size     : 25px;
+	font-style    : italic;
+	margin-bottom : 10px; 
+	color         : #004080;
+	text-align    : right; 
+	font-weight   : bold;
 }
 
 /*----products and services ------*/
@@ -225,34 +229,6 @@ table, td {
 .header-machine {
 	height : 1113px;
 }
-/*
-.backdrop-height {
-	height : 837px;
-}
-.backdrop-history {
-	height : 1225px;
-}
-.backdrop-plant {
-}*/
-.copyright-top{
-	margin-top : 757px !important;
-}
-.copyright-history{
-	margin-top : 1140px !important;
-}
-.copyright-pm {
-	margin-top: 1530px !important;
-}
-.copyright-plant{
-	margin-top : 3946px !important;
-}
-
-.copyright-ship{
-	margin-top : 1354px !important;
-}
-.copyright-machine {
-	margin-top : 1119px !important;
-}
 /*---- different font-sizes -----*/
 .header-company {
 	font-size : 56px;
@@ -260,49 +236,7 @@ table, td {
 .header-ps {
 	font-size : 56px;
 }
-/*--- margin for subheaders ---*/
-.subheader-history {
-	margin-left : 833px; 
-}
-.subheader-profile {
-	margin-left : 700px; 
-}
-.subheader-org {
-	margin-left : 732px;
-}
-.subheader-cert {
-	margin-left : 718px;
-}
-.subheader-pm {
-	margin-left : 645px; 
-}
-.subheader-plant {
-	margin-left : 565px;
-}
-.subheader-ship {
-	margin-left : 585px;
-}
-.subheader-machine {
-	margin-left : 643px; 
-}
-.subheader-training {
-	margin-left : 660px; 
-}
-.subheader-social {
-	margin-left: 678px;
-}
-.subheader-sports {
-	margin-left: 705px;
-}
-.subheader-csr {
-	margin-left : 641px; 
-}
-.subheader-careers {
-	margin-left: 822px;
-}
-.subheader-contact {
-	margin-left: 757px;
-}
+
 /*--- common helpers ---*/
 .bold {
 	font-weight : bold; 
@@ -376,15 +310,14 @@ table, td {
 
 /*------ temp css -------*/
 .main-pic {
-	position: absolute;
-	top: 90px;
-	width: 1075px;
-	height: 384px;
+	top    : 90px;
+	width  : 1075px;
+	height : 384px;
 }
 .newpic{
-	background: white;
-position: absolute;
-z-index: 10;
-top: 0;
-left: 0;
+	background : white;
+	position   : absolute;
+	z-index    : 10;
+	top        : 0;
+	left       : 0;
 }
