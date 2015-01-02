@@ -388,6 +388,36 @@ table, td {
 	.infocard {
 		width  : 209px;
 	}
+	.psinfo-pic {
+		margin-left  : auto;
+		margin-right : auto;
+		display      : table;
+		float        : none;
+	}
+	.psinfo-desc {
+		padding-left : 0;
+	}
+	.color-border {
+		display : none; 
+	}
+
+	.small-table {
+		display    : block !important; 
+		margin-top : -29px;
+	}
+
+	.small-table div {
+		margin-left   : auto;
+		margin-right  : auto;
+		display       : table;
+		margin-bottom : 10px;
+		margin-top    : 10px;
+		padding       : 10px;
+	}
+
+	.table-pic {
+		background : none;
+	}
 }
 
 @media screen and (max-width: 414px) {
@@ -443,6 +473,9 @@ table, td {
 #small-nav {
 	display    : none;
 	width      : 100%;	
+}
+.small-table {
+	display : none; 
 }
 
 /*------ temp css -------*/
