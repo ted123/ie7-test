@@ -101,7 +101,32 @@
 							</div>
 						</div>
 					</div>
-					<img src="../img/plant.png" class="main-pic">
+					<div id="products-carousel" class="carousel slide">
+						<!-- Carousel items -->
+						<div class="carousel-inner">
+							<div class="active item">
+								<img src="../img/plant.png">
+								<div class="carousel-caption">
+									<h4>Plant Engineering | the flagship of modernization</h4>
+									<p>Has successfully taken part in the completion of several plants that are now operating efficiently in various countries.</p>
+								</div>
+							</div>
+							<div class="item">
+								<img src="img/test2.jpg">
+								<div class="carousel-caption" >
+									<h4>Shipbuilding | building ships of the future</h4>
+									<p>Takes pride of its contribution on the design and engineering of vaious ships now sailing all over the world.</p>
+								</div>
+							</div>
+							<div class="item">
+								<img src="../img/am.png">
+								<div class="carousel-caption">
+									<h4>Advanced Machinery | gearing towards mahine innovation</h4>
+									<p>Responding to the call of the advanced information age through cutting-edge technologies</p>
+								</div>
+							</div>
+						</div>
+					</div>
 					<div id="mid" class="center">
 						<ul>
 							<li class="infocard">
@@ -140,5 +165,11 @@
 				</div>
 			</div>	
 		</div>
+		<!--- carousel script -->
+		<script type="text/javascript">
+			$('.carousel').carousel( {
+  				interval: 5000
+			} );
+		</script>
 	</body>
 </html>

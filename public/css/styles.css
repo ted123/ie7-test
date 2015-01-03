@@ -65,13 +65,12 @@ body {
 	font-weight : bold;  
 }
 #products-carousel {
-	width: 700px;
-	margin-top: 100px;
+	height : 384px;
 }
 
 #products-carousel img {
-	height : 300px;
-	width  : 700px;
+	width  : 1075px;
+	height : 395px;
 }
 
 #mid {
@@ -140,9 +139,10 @@ body {
 	color       : #9FC6E4;
 }
 #content-text{
-	width        : 746px;
-	padding-left : 200px;
-	margin-top   : 25px;	
+	width         : 746px;
+	padding-left  : 200px;
+	margin-top    : 25px;
+	margin-bottom : 20px; 	
 }
 #content-text p{
 	text-indent  : 35px;
@@ -352,6 +352,11 @@ table, td {
 		height : 116px;
 		width  : 361px;
 	}
+
+	.carousel-caption {
+		left    : 0 !important; 
+		width   : auto !important;
+	}
 }
 
 @media screen and (max-width: 794px) {
@@ -368,6 +373,18 @@ table, td {
 @media screen and (max-width: 767px) {
 	body {
 		padding : 0 !important;
+	}
+}
+
+@media screen and (max-width: 736px) {
+	.infocard {
+		width  : 329px;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	.infocard {
+		width  : 280px;
 	}
 }
 
@@ -420,6 +437,15 @@ table, td {
 	}
 }
 
+@media screen and (max-width: 480px) {
+	.carousel-caption {
+		position : absolute !important;
+	}
+	.infocard {
+		width  : 200px;
+	}
+}
+
 @media screen and (max-width: 414px) {
 	.infocard {
 		width  : 368px;
@@ -468,6 +494,12 @@ table, td {
 .dropdown-backdrop {
 	z-index : -10;
 	display : none; 
+}
+
+.carousel-caption {
+	left    : auto; 
+	padding : 15px;
+	width   : 358px;
 }
 /*---- small elements ---*/
 #small-nav {
