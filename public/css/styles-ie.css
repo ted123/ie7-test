@@ -119,6 +119,10 @@ body {
 	padding-top : 10px; 
 }
 
+.org {
+	height : 2500px;
+}
+
 /*--- company profile css ----*/
 #more-links {
 	width       : 195px;
@@ -149,6 +153,7 @@ body {
 	text-align   : justify;
     text-justify : inter-word;
 }
+
 /*---news fix---*/
 .with-news {
 	width         : 746px;
@@ -227,6 +232,9 @@ table, td {
 .header-height {
 	height : 746px;
 }
+.org-height {
+	height : 1100px;
+}
 .header-history {
 	height : 1130px;
 }
@@ -235,6 +243,9 @@ table, td {
 }
 .header-plant {
 	height : 3947px;
+}
+.header-cert {
+	height : 2000px;
 }
 .header-ship {
 	height : 1350px;
@@ -257,6 +268,9 @@ table, td {
 .center {
 	display    : table;
     margin     : 0 auto;
+}
+.img-center{
+	text-align : center; 
 }
 
 .hide {
@@ -309,6 +323,12 @@ table, td {
 	#mid {
 		width : 864px;
 	}
+	#products-carousel img {
+		height : 490px;
+	}
+	.header-plant {
+		height : 4200px !important;
+	}
 
 }
 
@@ -339,173 +359,35 @@ table, td {
 		margin-top   : 43px;
 		padding-left : 0; 
 	}
-}
-
-@media screen and (max-width: 903px) {
-	#page-backdrop {
-		width      : 100%;
-		margin-top : 0px;
-		position   : inherit; 
-		display    : block !important; 
-	}
 	#head {
-		width   : 100%;
-		margin  : 0;
+		height : 800px;
 	}
-	.infocard {
-		height : 176px;
+	.org-height {
+		height : 1300px !important;
 	}
-}
-
-@media screen and (max-width: 830px) {
-	.infocard {
-		height : 116px;
-		width  : 363px;
+	.header-history {
+		height : 1200px !important;
 	}
-	#mid {
-		margin-left : 0;
-		width       : auto;
-		height      : auto;  
+	.header-pm {
+		height   : 1500px !important;
 	}
-	#wrapper {
-		position : block; 
+	.header-plant {
+		height : 3947px !important;
 	}
-}
-
-@media screen and (max-width: 800px) {
-	.infocard {
-		height : 116px;
-		width  : 361px;
+	.header-ship {
+		height : 1500px !important;
 	}
-
-	.carousel-caption {
-		left    : 0 !important; 
-		width   : auto !important;
+	.header-machine {
+		height : 1150px !important;
+	}
+	.header-cert {
+		height : 2100px !important;
+	}
+	.with-news {
+		width        : 90% !important;
+		padding-left : 0 !important; 
 	}
 }
-
-@media screen and (max-width: 794px) {
-	.infocard {
-		width  : 356px;
-	}
-}
-@media screen and (max-width: 768px) {
-	.infocard {
-		width  : 344px;
-	}
-}
-
-@media screen and (max-width: 767px) {
-	body {
-		padding : 0 !important;
-	}
-}
-
-@media screen and (max-width: 736px) {
-	.infocard {
-		width  : 329px;
-	}
-}
-
-@media screen and (max-width: 640px) {
-	.infocard {
-		width  : 280px;
-	}
-}
-
-@media screen and (max-width: 600px) {
-	.infocard {
-		width  : 261px;
-		height : 156px;
-	}
-}
-
-@media screen and (max-width: 568px) {
-	.infocard {
-		width  : 244px;
-	}
-}
-
-@media screen and (max-width: 500px) {
-	.infocard {
-		width  : 209px;
-	}
-	.psinfo-pic {
-		margin-left  : auto;
-		margin-right : auto;
-		display      : table;
-		float        : none;
-	}
-	.psinfo-desc {
-		padding-left : 0;
-	}
-	.color-border {
-		display : none; 
-	}
-
-	.small-table {
-		display    : block !important; 
-		margin-top : -29px;
-	}
-
-	.small-table div {
-		margin-left   : auto;
-		margin-right  : auto;
-		display       : table;
-		margin-bottom : 10px;
-		margin-top    : 10px;
-		padding       : 10px;
-	}
-
-	.table-pic {
-		background : none;
-	}
-}
-
-@media screen and (max-width: 480px) {
-	.carousel-caption {
-		position : absolute !important;
-	}
-	.infocard {
-		width  : 200px;
-	}
-}
-
-@media screen and (max-width: 414px) {
-	.infocard {
-		width  : 368px;
-		height : 108px;
-	}
-}
-
-@media screen and (max-width: 400px) {
-	.infocard {
-		width  : 354px;
-	}
-}
-
-@media screen and (max-width: 375px) {
-	.infocard {
-		width  : 331px;
-	}
-	#logo-container {
-		margin-top: 10px;
-		margin-left: 4px;
-	}
-}
-
-@media screen and (max-width: 360px) {
-	.infocard {
-		width  : 314px;
-	}
-}
-
-@media screen and (max-width: 320px) {
-	.infocard {
-		width  : 277px;
-	}
-}
-
 
 /*--overide bootstrap css--*/
 .navbar {

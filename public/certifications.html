@@ -9,23 +9,26 @@
 		<meta name="author" content="ted123">
 
 		<link rel="stylesheet" href="css/bootstrap.min.css">
-		<link rel="stylesheet" href="css/styles.css">
 		<!--[if IE 7]>
-		<link rel="stylesheet" href="css/ie-styles.css">
+			<link rel="stylesheet" href="css/styles-ie.css">
 		<![endif]-->
+		<![if !(IE 7)]>
+			<link rel="stylesheet" href="css/styles.css">
+		<![endif]>
 		<link rel="stylesheet" href="css/bootstrap-responsive.min.css">
 
 		<script src="js/jquery.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
 
 		<!--[if lt IE 9]>
-		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+			<script src="js/respond.src.js"></script>
 		<![endif]-->
 	</head>
 	<body>
 		<div class="wrapper">
 			<div id="page-backdrop" class="center backdrop-height">
-				<div id="head" class="center header-height">
+				<div id="head" class="center header-cert">
 					<div id="logo-container">
 						<img src="img/logo.png">
 					</div>
@@ -117,9 +120,10 @@
 					</div>
 					<div id="content-text" >
 						<div id="subheader">CERTIFICATIONS</div>
-						<img src="../img/plant-cert.png" class="center"><br/>
-						<img src="../img/ship.png" class="center"><br/>
-						<img src="../img/isms.png" class="center"><br/>
+						<br/>
+						<div  class="img-center"><img src="../img/plant-cert.png" class="center"></div><br/>
+						<div  class="img-center"><img src="../img/ship.png" class="center"></div><br/>
+						<div  class="img-center"><img src="../img/isms.png" class="center"></div><br/>
 					</div>
 				</div>
 				<div id="copyright" class="center copyright-top">

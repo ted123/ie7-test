@@ -9,23 +9,26 @@
 		<meta name="author" content="ted123">
 
 		<link rel="stylesheet" href="css/bootstrap.min.css">
-		<link rel="stylesheet" href="css/styles.css">
 		<!--[if IE 7]>
-		<link rel="stylesheet" href="css/ie-styles.css">
+			<link rel="stylesheet" href="css/styles-ie.css">
 		<![endif]-->
+		<![if !(IE 7)]>
+			<link rel="stylesheet" href="css/styles.css">
+		<![endif]>
 		<link rel="stylesheet" href="css/bootstrap-responsive.min.css">
 
 		<script src="js/jquery.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
 
 		<!--[if lt IE 9]>
-		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+			<script src="js/respond.src.js"></script>
 		<![endif]-->
 	</head>
 	<body>
 		<div class="wrapper">
 			<div id="page-backdrop" class="center backdrop-height">
-				<div id="head" class="center header-height">
+				<div id="head" class="center org-height">
 					<div id="logo-container">
 						<img src="img/logo.png">
 					</div>
@@ -115,7 +118,7 @@
 							</div>
 						</div>
 					</div>
-					<div id="content-text" >
+					<div id="content-text">
 						<div id="subheader">ORGANIZATION</div>
 						<img src="../img/chart2010.png">
 					</div>
